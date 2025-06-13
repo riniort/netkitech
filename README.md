@@ -1,56 +1,46 @@
 # 🧰 Netkitech - Network Utility Toolkit
 
-**Netkitech** is a simple yet powerful network utility app for Windows, built with Python and available as an executable `.exe`. It provides essential tools for checking IP and DNS settings, pinging game servers, flushing cache, and more — all in a convenient graphical interface.
+**Netkitech** is a lightweight, GUI-based network utility app built with Python and available as an `.exe` for Windows users. It provides essential tools for checking IP and DNS, pinging major game servers, resetting adapters, and more — all in a simple graphical interface.
 
 ---
 
-## 🔍 Features
+## 🔧 Features
 
-- **View Current IP & DNS**  
-  Instantly retrieve and display your local IP address and DNS server list.
-
+- **View Current IP & DNS**
 - **Ping Tools**
-  - Ping Cloudflare (1.1.1.1)
-  - Select and ping major game servers:
-    - Blizzard
-    - Overwatch
-    - Call of Duty
-    - Ubisoft
-    - Roblox
-    - NARAKA
-    - HELLDIVERS 2
-    - Marvel Rivals
-
-- **Network Actions**
-  - Flush IP and DNS cache
-  - Reset network adapters (Windows only)
-  - Export current network settings to `network_info.txt`
-
-- **Quick Access Tools**
-  - Open router configuration page
-  - Run internet speed test via [Fast.com](https://fast.com/)
-  - Visit [GameServerPing.com](https://gameserverping.com/)
+  - Cloudflare (1.1.1.1)
+  - Popular game servers (Overwatch, CoD, Ubisoft, etc.)
+- **Flush IP & DNS Cache**
+- **Reset Network Adapters (Windows only)**
+- **Export Network Info to `network_info.txt`**
+- **Quick Access**
+  - Router login page
+  - [Fast.com](https://fast.com/) speed test
+  - [GameServerPing.com](https://gameserverping.com/)
 
 ---
 
-## 💻 Platform Compatibility
+## 💻 Platform Support
 
-- ✔️ Windows 10/11 (.exe supported)
-- 🐍 Cross-platform source (some functions Windows-only)
+- 🪟 Windows (with `.exe` build)
+- 🐍 Cross-platform Python source (some features Windows-only)
 
 ---
 
-## 🚀 Running the App
+## 🚀 How to Use
 
-### Option 1: Use the `.exe` (No Python Needed)
-Download the prebuilt `.exe` file from [Releases](#) and double-click to launch.
+### Option 1: Run `.exe` (No Setup Required)
 
-### Option 2: Run from Source
+Download the `.exe` file from [Releases](#) and double-click to run.
 
-#### Requirements:
+### Option 2: Run from Python Source
+
+#### Requirements
+
 - Python 3.6+
-- No external dependencies
+- Standard libraries (no third-party modules required for default GUI)
+- **Optional:**  
+  To add CLI-based speed test support, install:
 
-#### Run:
-```bash
-python netkitech.py
+  ```bash
+  pip install speedtest-cli
