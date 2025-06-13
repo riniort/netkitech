@@ -1,54 +1,56 @@
-🧰 Netkitech - Network Utility Toolkit
-Netkitech is a lightweight, GUI-based Windows network troubleshooting toolkit built with Python and packaged as an .exe for portability. It offers quick access to essential network diagnostics, DNS/IP tools, and popular game server pings — perfect for gamers, IT support, and power users.
+# 🧰 Netkitech - Network Utility Toolkit
 
-🔧 Features
-🖧 View IP & DNS Info – Quickly check your local IP and DNS configuration.
+**Netkitech** is a simple yet powerful network utility app for Windows, built with Python and available as an executable `.exe`. It provides essential tools for checking IP and DNS settings, pinging game servers, flushing cache, and more — all in a convenient graphical interface.
 
-📶 Ping Tools – Test latency to:
+---
 
-Cloudflare DNS (1.1.1.1)
+## 🔍 Features
 
-Popular game servers (Overwatch, Roblox, CoD, Helldivers 2, etc.)
+- **View Current IP & DNS**  
+  Instantly retrieve and display your local IP address and DNS server list.
 
-🌐 Network Utilities
+- **Ping Tools**
+  - Ping Cloudflare (1.1.1.1)
+  - Select and ping major game servers:
+    - Blizzard
+    - Overwatch
+    - Call of Duty
+    - Ubisoft
+    - Roblox
+    - NARAKA
+    - HELLDIVERS 2
+    - Marvel Rivals
 
-Flush IP and DNS cache
+- **Network Actions**
+  - Flush IP and DNS cache
+  - Reset network adapters (Windows only)
+  - Export current network settings to `network_info.txt`
 
-Reset network adapters
+- **Quick Access Tools**
+  - Open router configuration page
+  - Run internet speed test via [Fast.com](https://fast.com/)
+  - Visit [GameServerPing.com](https://gameserverping.com/)
 
-Export full network info to a text file
+---
 
-🚀 Web Shortcuts
+## 💻 Platform Compatibility
 
-Open router admin page
+- ✔️ Windows 10/11 (.exe supported)
+- 🐍 Cross-platform source (some functions Windows-only)
 
-Run speed test on Fast.com
+---
 
-Open GameServerPing.com
+## 🚀 Running the App
 
-💻 Platform
-Windows (.exe version available)
+### Option 1: Use the `.exe` (No Python Needed)
+Download the prebuilt `.exe` file from [Releases](#) and double-click to launch.
 
-Python-based source code available for customization
+### Option 2: Run from Source
 
-📦 How to Run
-Download the .exe from the Releases section (if available) and run it directly — no installation needed.
+#### Requirements:
+- Python 3.6+
+- No external dependencies
 
-Alternatively, run with Python 3:
-
-bash
-Copy
-Edit
+#### Run:
+```bash
 python netkitech.py
-📁 Requirements (for source run)
-Python 3.x
-
-Standard libraries only (no third-party dependencies)
-
-🛠 Build .exe (optional)
-To package the app using pyinstaller:
-
-bash
-Copy
-Edit
-pyinstaller --noconfirm --onefile --windowed netkitech.py
