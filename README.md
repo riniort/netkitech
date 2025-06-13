@@ -18,6 +18,11 @@
   - [Fast.com](https://fast.com/) speed test
   - [GameServerPing.com](https://gameserverping.com/)
 
+
+![image](https://github.com/user-attachments/assets/367490e6-0963-4815-b735-b30cea45329c)
+
+
+
 ---
 
 ## 💻 Platform Support
